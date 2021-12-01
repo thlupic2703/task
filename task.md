@@ -52,7 +52,7 @@ When the update is available, it is indicated by a triangle next to the number o
 
 </br>
 
-> :memo: *Note:*
+> :pushpin: **Note:**
 >
 ><span style="color:grey">*If by default Python Interpreter is set to `<No interpreter>`, choose one by clicking on the settings button in the upper right corner and then on *Add*. It is recommended to use the System Interpreter (Python.exe).*</span>
 

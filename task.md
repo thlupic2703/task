@@ -47,7 +47,7 @@ When the update is available, it is indicated by a triangle next to the number o
 <br>
 
 <center>
-  <img width="550" src="module_manager.png">
+  <img width="550" src="./module_manager.png">
 </center>
 
 </br>
@@ -67,7 +67,7 @@ Simply type in the name of the desired package and once it is found, click on *I
 </br>
 
 <center>
-  <img width="550" src="spacy.png">
+  <img width="550" src="./spacy.png">
 </center>
 
 <br>
@@ -77,7 +77,7 @@ Once the package is installed, on the bottom of the dialog box the following mes
 </br>
 
 <center>
-  <img width="250" src="success.png">
+  <img width="250" src="./success.png">
 </center>
 
 <br>

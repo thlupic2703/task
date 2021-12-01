@@ -4,7 +4,7 @@ PyCharm is an IDE specifically designed for Python. One of the reasons for its w
 <br>
 </br>
 ## Key Terms
----
+
 ==Modules== are files in Python containing functions and/or dictionaries, lists, classes, etc. that have to be **imported** in order to be used. 
 
 One can either import the whole module or only one part of it.
@@ -13,7 +13,7 @@ Modules are organized into larger structures called ==packages==. One package in
 <br>
 </br>
 ## Installation Process through Pip
----
+
 
 Usually the process of installation includes the use of command-line and *pip*, package manager for Python:
 
@@ -30,7 +30,7 @@ Where:
 <br>
 </br>
 ## Installation Process in PyCharm
----
+
 However, in PyCharm, this is possible without installing the package manager first. This is because Pycharm comes with a pre-installed package manager for Python. Command-line does not need to be used, but everything can be done through the IDE.
 
 After launching PyCharm, open a project in which this module will be used by clicking on *File* > *New Project...* > *Create*. 

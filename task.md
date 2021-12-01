@@ -5,11 +5,11 @@ PyCharm is an IDE specifically designed for Python. One of the reasons for its w
 </br>
 ## Key Terms
 
-==Modules== are files in Python containing functions and/or dictionaries, lists, classes, etc. that have to be **imported** in order to be used. 
+<mark>Modules</mark> are files in Python containing functions and/or dictionaries, lists, classes, etc. that have to be **imported** in order to be used. 
 
 One can either import the whole module or only one part of it.
 
-Modules are organized into larger structures called ==packages==. One package includes modules designed for a similar purpose. An example of a package would be *Requests* used for communication with servers.
+Modules are organized into larger structures called <mark>packages</mark>. One package includes modules designed for a similar purpose. An example of a package would be *Requests* used for communication with servers.
 <br>
 </br>
 ## Installation Process through Pip
@@ -22,11 +22,10 @@ Usually the process of installation includes the use of command-line and *pip*, 
 ```
 
 Where:
-* pip needs to be installed beforehand[^1]
+* pip needs to be installed beforehand (it is not included in Python by default)
 * the version of Python is needed only when multiple ones are installed
-* ==-m== stands for module
+* <mark>-m</mark> stands for module
 
-[^1](it is not included in Python by default)
 <br>
 </br>
 ## Installation Process in PyCharm
@@ -39,11 +38,11 @@ Then go to *File* > *Settings* > *Project: \[project-name\]* > *Python Interpret
 
 * installed <span style="color:red">**(1.)**</span>
 * uninstalled <span style="color:red">**(2.)**</span>
-* updated <span style="color:red">**(3.)**</span>[^1]
+* updated <span style="color:red">**(3.)**</span>
 
 and their early releases <span style="color:red">**(4.)**</span> can be shown.
 
-[^1](when the update is available, it is indicated by a triangle next to the number of the latest version (column 3)) <span style="color:red">**(5.)**</span>
+When the update is available, it is indicated by a triangle next to the number of the latest version (column 3). <span style="color:red">**(5.)**</span>
 
 <br>
 
@@ -53,7 +52,7 @@ and their early releases <span style="color:red">**(4.)**</span> can be shown.
 
 </br>
 
-> &#2139; *Note:*
+> :joy: *Note:*
 >
 ><span style="color:grey">*If by default Python Interpreter is set to `<No interpreter>`, choose one by clicking on the settings button in the upper right corner and then on *Add*. It is recommended to use the System Interpreter (Python.exe).*</span>
 

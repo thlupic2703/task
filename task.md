@@ -52,7 +52,7 @@ When the update is available, it is indicated by a triangle next to the number o
 
 </br>
 
-> :joy: *Note:*
+> :information_source: *Note:*
 >
 ><span style="color:grey">*If by default Python Interpreter is set to `<No interpreter>`, choose one by clicking on the settings button in the upper right corner and then on *Add*. It is recommended to use the System Interpreter (Python.exe).*</span>
 
@@ -60,7 +60,7 @@ When the update is available, it is indicated by a triangle next to the number o
 
 When everything is set up, the module installation process can begin. By clicking on the **+ sign** above the list of packages, a new dialog box opens. Here, packages can be searched for and installed. 
 
-Note that a choice can be made to *"Install [the package] to user's site packages directory"* or, to the specified directory. However, if this check is left unchecked, the package is installed to the IDE's designated directory.
+Note that a choice can be made to *"Install [the package] to user's site packages directory"* or, in other words, to the specified directory. However, if this checkbox is left unchecked, the package is installed to the IDE's designated directory.
 
 Simply type in the name of the desired package and once it is found, click on *Install Package*:
 

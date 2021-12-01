@@ -5,11 +5,11 @@ PyCharm is an IDE specifically designed for Python. One of the reasons for its w
 </br>
 ## Key Terms
 
-<mark>Modules</mark> are files in Python containing functions and/or dictionaries, lists, classes, etc. that have to be **imported** in order to be used. 
+**Modules** are files in Python containing functions and/or dictionaries, lists, classes, etc. that have to be **imported** in order to be used. 
 
 One can either import the whole module or only one part of it.
 
-Modules are organized into larger structures called <mark>packages</mark>. One package includes modules designed for a similar purpose. An example of a package would be *Requests* used for communication with servers.
+Modules are organized into larger structures called **packages**. One package includes modules designed for a similar purpose. An example of a package would be *Requests* used for communication with servers.
 <br>
 </br>
 ## Installation Process through Pip
@@ -24,7 +24,7 @@ Usually the process of installation includes the use of command-line and *pip*, 
 Where:
 * pip needs to be installed beforehand (it is not included in Python by default)
 * the version of Python is needed only when multiple ones are installed
-* <mark>-m</mark> stands for module
+* **-m** stands for module
 
 <br>
 </br>

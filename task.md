@@ -2,10 +2,12 @@
 
 PyCharm is an IDE specifically designed for Python. One of the reasons for its wide-spread use is definitely its user-friendly nature. This is especially highlighted in one of its most important features - the installation of *modules* and *packages*.
 <br>
+</br>
 
 ## Release Note
 * quick and simple installation of modules directly through GUI without using terminal
 <br>
+</br>
 
 ## Key Terms
 
@@ -15,10 +17,13 @@ One can either import the whole module or only one part of it.
 
 Modules are organized into larger structures called **packages**. One package includes modules designed for a similar purpose. An example of a package would be *Requests* used for communication with servers.
 <br>
+</br>
 
 ## Installation Process through Pip
 
 Usually the process of installation includes the use of command-line and *pip*, package manager for Python:
+<br>
+</br>
 
 ```
  python <python-version> -m pip install <package-name>
@@ -29,6 +34,7 @@ Where:
 * the version of Python is needed only when multiple ones are installed
 * **-m** stands for module
 <br>
+</br>
 
 ## Installation Process in PyCharm
 
@@ -46,14 +52,17 @@ and their early releases <span style="color:red">**(4.)**</span> can be shown.
 
 When the update is available, it is indicated by a triangle next to the number of the latest version (column 3). <span style="color:red">**(5.)**</span>
 <br>
+</br>
 
 ![Package Manager](https://github.com/thlupic2703/task/blob/master/module_manager.PNG?raw=true)
 <br>
+</br>
 
 > :pushpin: **Note:**
 >
 ><span style="color:grey">*If by default Python Interpreter is set to `<No interpreter>`, choose one by clicking on the settings button in the upper right corner and then on *Add*. It is recommended to use the System Interpreter (Python.exe).*</span>
 <br>
+</br>
 
 When everything is set up, the module installation process can begin. By clicking on the **+ sign** above the list of packages, a new dialog box opens. Here, packages can be searched for and installed. 
 
@@ -61,34 +70,41 @@ Note that above the *Install Package* button a choice can be made to *"Install [
 
 Simply type in the name of the desired package and once it is found, click on *Install Package*:
 <br>
+</br>
 
 ![Installing a New Package](https://github.com/thlupic2703/task/blob/master/spacy.PNG?raw=true)
 <br>
+</br>
 
 Once the package is installed, on the bottom of the dialog box the following message will be shown:
 <br>
+</br>
 
 ![Successful Installation](https://github.com/thlupic2703/task/blob/master/success.PNG?raw=true)
 <br>
+</br>
 
 This means that the package is ready to be used. The installation has been successful when the package can be found on the list of installed packages.
 <br>
+</br>
 
 <details>
   <summary markdown="span">SHOW THE EXAMPLE OF MODULE USAGE</summary>
-<br>
 
 When installing, for example, Spacy, as in the picture above, the English dictionary (en_core_web_sm) needs to be installed separately. This is done by writing and running the following code:
 <br>
+</br>
 
 ```python
 import spacy
 spacy.cli.download("en_core_web_sm")
 ```
 <br>
+</br>
 
 Once everything is installed with no error messages popping up, the module and its dictionary can successfuly be used for natural language processing in Python:
 <br>
+</br>
 
 ```python
 import spacy

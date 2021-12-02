@@ -84,7 +84,7 @@ Once the package is installed, on the bottom of the dialog box, the following me
 ![Successful Installation](https://github.com/thlupic2703/task/blob/master/images/success.PNG?raw=true)
 <br>
 
-And voilá - the package is ready to be used! :tada: The installation has been successful when the package can be found on the list of installed packages.
+And voilà - the package is ready to be used! :tada: The installation has been successful when the package can be found on the list of installed packages.
 
 Now all there is left to do is to import the package and start coding.
 

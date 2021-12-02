@@ -23,7 +23,6 @@ Modules are organized into larger structures called **packages**. One package in
 ## Installation Process through Pip
 
 Usually the process of installation includes the use of command-line and *pip*, package manager for Python:
-
 <br>
 
 ```
@@ -55,7 +54,7 @@ When the update is available, it is indicated by a triangle next to the number o
 
 <br>
 
-![Package Manager](./module_manager.png)
+![Package Manager](https://github.com/thlupic2703/task/blob/master/module_manager.PNG?raw=true)
 
 <br>
 
@@ -78,11 +77,9 @@ Simply type in the name of the desired package and once it is found, click on *I
 <br>
 
 Once the package is installed, on the bottom of the dialog box the following message will be shown:
-
 <br>
 
 ![Successful Installation](https://github.com/thlupic2703/task/blob/master/success.PNG?raw=true)
-
 <br>
 
 This means that the package is ready to be used. The installation has been successful when the package can be found on the list of installed packages.
@@ -93,18 +90,15 @@ This means that the package is ready to be used. The installation has been succe
   <summary markdown="span">SHOW THE EXAMPLE OF MODULE USAGE</summary>
 
 When installing, for example, Spacy, as in the picture above, the English dictionary (en_core_web_sm) needs to be installed separately. This is done by writing and running the following code:
-
 <br>
 
 ```python
 import spacy
 spacy.cli.download("en_core_web_sm")
 ```
-
 <br>
 
 Once everything is installed with no error messages popping up, the module and its dictionary can successfuly be used for natural language processing in Python:
-
 <br>
 
 ```python

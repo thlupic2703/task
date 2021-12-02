@@ -3,6 +3,13 @@
 PyCharm is an IDE specifically designed for Python. One of the reasons for its wide-spread use is definitely its user-friendly nature. This is especially highlighted in one of its most important features - the installation of *modules* and *packages*.
 <br>
 </br>
+
+## Release Note
+* quick and simple installation of modules directly through GUI without using terminal
+
+<br>
+</br>
+
 ## Key Terms
 
 **Modules** are files in Python containing functions and/or dictionaries, lists, classes, etc. that have to be **imported** in order to be used. 
@@ -14,7 +21,6 @@ Modules are organized into larger structures called **packages**. One package in
 </br>
 ## Installation Process through Pip
 
-
 Usually the process of installation includes the use of command-line and *pip*, package manager for Python:
 
 ```
@@ -25,9 +31,9 @@ Where:
 * pip needs to be installed beforehand (it is not included in Python by default)
 * the version of Python is needed only when multiple ones are installed
 * **-m** stands for module
-
 <br>
 </br>
+
 ## Installation Process in PyCharm
 
 However, in PyCharm, this is possible without installing the package manager first. This is because Pycharm comes with a pre-installed package manager for Python. Command-line does not need to be used, but everything can be done through the IDE.
@@ -46,9 +52,7 @@ When the update is available, it is indicated by a triangle next to the number o
 
 <br>
 
-<center>
-  <img width="550" src="./module_manager.png">
-</center>
+![Package Manager](./module_manager.png)
 
 </br>
 
@@ -60,15 +64,13 @@ When the update is available, it is indicated by a triangle next to the number o
 
 When everything is set up, the module installation process can begin. By clicking on the **+ sign** above the list of packages, a new dialog box opens. Here, packages can be searched for and installed. 
 
-Note that a choice can be made to *"Install [the package] to user's site packages directory"* or, in other words, to the specified directory. However, if this checkbox is left unchecked, the package is installed to the IDE's designated directory.
+Note that above the *Install Package* button a choice can be made to *"Install [the package] to user's site packages directory"*. If this is marked, the package is installed to the location specified in the brackets. Alternatively, by default, the package is installed to the folder of the chosen **Python Interpreter** (in this case: Python 3.10).
 
 Simply type in the name of the desired package and once it is found, click on *Install Package*:
 
 </br>
 
-<center>
-  <img width="550" src="./spacy.png">
-</center>
+![Installing a New Package](./spacy.png)
 
 <br>
 
@@ -76,9 +78,7 @@ Once the package is installed, on the bottom of the dialog box the following mes
 
 </br>
 
-<center>
-  <img width="250" src="./success.png">
-</center>
+![Successful Installation](./success.png)
 
 <br>
 

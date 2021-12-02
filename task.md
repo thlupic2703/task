@@ -6,7 +6,6 @@ PyCharm is an IDE specifically designed for Python. One of the reasons for its w
 
 ## Release Note
 * quick and simple installation of modules directly through GUI without using terminal
-
 <br>
 </br>
 
@@ -52,7 +51,7 @@ When the update is available, it is indicated by a triangle next to the number o
 
 <br>
 
-![Package Manager](./module_manager.png)
+![Package Manager](https://github.com/thlupic2703/task/blob/master/module_manager.PNG?raw=true)
 
 </br>
 
@@ -70,7 +69,7 @@ Simply type in the name of the desired package and once it is found, click on *I
 
 </br>
 
-![Installing a New Package](./spacy.png)
+![Installing a New Package](https://github.com/thlupic2703/task/blob/master/spacy.PNG?raw=true)
 
 <br>
 
@@ -78,7 +77,7 @@ Once the package is installed, on the bottom of the dialog box the following mes
 
 </br>
 
-![Successful Installation](./success.png)
+![Successful Installation](https://github.com/thlupic2703/task/blob/master/success.PNG?raw=true)
 
 <br>
 
@@ -89,8 +88,9 @@ This means that the package is ready to be used. The installation has been succe
 <details>
   <summary markdown="span">SHOW THE EXAMPLE OF MODULE USAGE</summary>
 <br>
+</br>
 When installing, for example, Spacy, as in the picture above, the English dictionary (en_core_web_sm) needs to be installed separately. This is done by writing and running the following code:
-
+<br>
 </br>
 
 ```python

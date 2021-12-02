@@ -1,12 +1,12 @@
 # Module Installation in PyCharm
 
-PyCharm is an IDE specifically designed for Python. One of the reasons for its wide-spread use is definitely its user-friendly nature. This is especially highlighted in one of its most important features - the installation of *modules* and *packages*.
+PyCharm is an IDE specifically designed for Python. One of the reasons for its wide-spread use is definitely its user-friendly nature. This is especially highlighted in one of its most important newly-introduced features - the installation of *modules* and *packages* through the IDE.
 
 <br>
 
 ## Release Note
 
-* quick and simple installation of modules directly through GUI without using terminal
+* quick and simple installation of modules directly through GUI without using terminal :rocket:
 
 <br>
 
@@ -32,17 +32,19 @@ Usually the process of installation includes the use of command-line and *pip*, 
 Where:
 * pip needs to be installed beforehand (it is not included in Python by default)
 * the version of Python is needed only when multiple ones are installed
-* **-m** stands for module
+* `-m` stands for module
 
 <br>
 
 ## Installation Process in PyCharm
 
-However, in PyCharm, this is possible without installing the package manager first. This is because Pycharm comes with a pre-installed package manager for Python. Command-line does not need to be used, but everything can be done through the IDE.
+In the new version of PyCharm, the installation process is now possible without installing the package manager first. This is because the package manager is already included in this Python IDE! Command-line does not need to be used, but everything can be done with only a couple of clicks on the IDE's interface.
 
-After launching PyCharm, open a project in which this module will be used by clicking on `*File* > *New Project...* > *Create*`. 
+The process is as follows.
 
-Then go to `*File* > *Settings* > *Project: \[project-name\]* > *Python Interpreter*`. From there, packages can be:
+After launching PyCharm, open a project in which this module will be used by clicking on `File > New Project... > Create`. 
+
+Then go to `File > Settings > Project: \[project-name\] > Python Interpreter`. From there, packages can be:
 
 * installed <span style="color:red">**(1.)**</span>
 * uninstalled <span style="color:red">**(2.)**</span>
@@ -50,7 +52,7 @@ Then go to `*File* > *Settings* > *Project: \[project-name\]* > *Python Interpre
 
 and their early releases <span style="color:red">**(4.)**</span> can be shown.
 
-When the update is available, it is indicated by a triangle next to the number of the latest version (column 3). <span style="color:red">**(5.)**</span>
+When an update is available, it is indicated by a triangle next to the number of the latest version (column 3). <span style="color:red">**(5.)**</span>
 
 <br>
 
@@ -82,7 +84,11 @@ Once the package is installed, on the bottom of the dialog box the following mes
 ![Successful Installation](https://github.com/thlupic2703/task/blob/master/success.PNG?raw=true)
 <br>
 
-This means that the package is ready to be used. The installation has been successful when the package can be found on the list of installed packages.
+And voilá - the package is ready to be used! :tada: The installation has been successful when the package can be found on the list of installed packages.
+
+Now all there is left to do is import the package and start coding.
+
+To see one of the modules in action, click on the arrow below:
 
 <br>
 

@@ -40,9 +40,9 @@ Where:
 
 However, in PyCharm, this is possible without installing the package manager first. This is because Pycharm comes with a pre-installed package manager for Python. Command-line does not need to be used, but everything can be done through the IDE.
 
-After launching PyCharm, open a project in which this module will be used by clicking on *File* > *New Project...* > *Create*. 
+After launching PyCharm, open a project in which this module will be used by clicking on `*File* > *New Project...* > *Create*`. 
 
-Then go to *File* > *Settings* > *Project: \[project-name\]* > *Python Interpreter*. From there, packages can be:
+Then go to `*File* > *Settings* > *Project: \[project-name\]* > *Python Interpreter*`. From there, packages can be:
 
 * installed <span style="color:red">**(1.)**</span>
 * uninstalled <span style="color:red">**(2.)**</span>
@@ -88,6 +88,7 @@ This means that the package is ready to be used. The installation has been succe
 
 <details>
   <summary markdown="span">SHOW THE EXAMPLE OF MODULE USAGE</summary>
+<br>
 
 When installing, for example, Spacy, as in the picture above, the English dictionary (en_core_web_sm) needs to be installed separately. This is done by writing and running the following code:
 <br>

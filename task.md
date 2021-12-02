@@ -6,8 +6,7 @@ PyCharm is an IDE specifically designed for Python. One of the reasons for its w
 
 ## Release Note
 * quick and simple installation of modules directly through GUI without using terminal
-<br>
-</br>
+
 
 ## Key Terms
 
@@ -30,8 +29,7 @@ Where:
 * pip needs to be installed beforehand (it is not included in Python by default)
 * the version of Python is needed only when multiple ones are installed
 * **-m** stands for module
-<br>
-</br>
+
 
 ## Installation Process in PyCharm
 

@@ -1,28 +1,28 @@
 # Module Installation in PyCharm
 
-PyCharm is an IDE specifically designed for Python. One of the reasons for its wide-spread use is definitely its user-friendly nature. This is especially highlighted in one of its most important newly-introduced features - the installation of *modules* and *packages* through the IDE.
+PyCharm is an IDE specifically designed for Python. One of the reasons for its widespread use is its user-friendly nature. This is particularly highlighted in one of its most important newly-introduced features - the installation of *modules* and *packages* directly through the IDE's interface.
 
 <br>
 
 ## Release Note
 
-* quick and simple installation of modules directly through GUI without using terminal :rocket:
+* quick and simple installation of modules directly through the GUI without using the terminal :rocket:
 
 <br>
 
 ## Key Terms
 
-**Modules** are files in Python containing functions and/or dictionaries, lists, classes, etc. that have to be **imported** in order to be used. 
+**Modules** are files in Python containing functions and/or dictionaries, lists, classes, etc., which have to be **imported** in order to be used. 
 
-One can either import the whole module or only one part of it.
+One can either import the whole module or only a part of it.
 
-Modules are organized into larger structures called **packages**. One package includes modules designed for a similar purpose. An example of a package would be *Requests* used for communication with servers.
+Modules are organized into larger structures called **packages**. One package includes modules designed for a particular purpose. An example of a package would be *Requests* used for communication with servers.
 
 <br>
 
 ## Installation Process through Pip
 
-Usually the process of installation includes the use of command-line and *pip*, package manager for Python:
+Usually, the process of installation includes the use of the command line and *pip*, package manager for Python:
 <br>
 
 ```
@@ -30,15 +30,15 @@ Usually the process of installation includes the use of command-line and *pip*, 
 ```
 
 Where:
-* pip needs to be installed beforehand (it is not included in Python by default)
-* the version of Python is needed only when multiple ones are installed
+
+* the version of Python should be included only when multiple ones are installed on the computer
 * `-m` stands for module
 
 <br>
 
 ## Installation Process in PyCharm
 
-In the new version of PyCharm, the installation process is now possible without installing the package manager first. This is because the package manager is already included in this Python IDE! Command-line does not need to be used, but everything can be done with only a couple of clicks on the IDE's interface.
+In the new version of PyCharm, the installation process is now possible without installing the package manager first. This is because the package manager is already included in this Python IDE! There is no need to use the command line since everything can be done with only a few clicks on the IDE's interface.
 
 The process is as follows.
 
@@ -56,7 +56,7 @@ When an update is available, it is indicated by a triangle next to the number of
 
 <br>
 
-![Package Manager](https://github.com/thlupic2703/task/blob/master/module_manager.PNG?raw=true)
+![Package Manager](https://github.com/thlupic2703/task/blob/master/images/module_manager.PNG?raw=true)
 
 <br>
 
@@ -68,25 +68,25 @@ When an update is available, it is indicated by a triangle next to the number of
 
 When everything is set up, the module installation process can begin. By clicking on the **+ sign** above the list of packages, a new dialog box opens. Here, packages can be searched for and installed. 
 
-Note that above the *Install Package* button a choice can be made to *"Install [the package] to user's site packages directory"*. If this is marked, the package is installed to the location specified in the brackets. Alternatively, by default, the package is installed to the folder of the chosen **Python Interpreter** (in this case: Python 3.10).
+Note that above the *Install Package* button a choice can be made to *"Install [the package] to user's site packages directory"*. If this is marked, the package will be installed to the location specified in the brackets. Alternatively, by default, the package will installed in the folder of the chosen **Python Interpreter** (in this case: Python 3.10).
 
 Simply type in the name of the desired package and once it is found, click on *Install Package*:
 
 <br>
 
-![Installing a New Package](https://github.com/thlupic2703/task/blob/master/spacy.PNG?raw=true)
+![Installing a New Package](https://github.com/thlupic2703/task/blob/master/images/spacy.PNG?raw=true)
 
 <br>
 
-Once the package is installed, on the bottom of the dialog box the following message will be shown:
+Once the package is installed, on the bottom of the dialog box, the following message will appear:
 <br>
 
-![Successful Installation](https://github.com/thlupic2703/task/blob/master/success.PNG?raw=true)
+![Successful Installation](https://github.com/thlupic2703/task/blob/master/images/success.PNG?raw=true)
 <br>
 
 And voilá - the package is ready to be used! :tada: The installation has been successful when the package can be found on the list of installed packages.
 
-Now all there is left to do is import the package and start coding.
+Now all there is left to do is to import the package and start coding.
 
 To see one of the modules in action, click on the arrow below:
 
